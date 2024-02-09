@@ -4,6 +4,8 @@
 import 'package:clothingshop/screens/auth/forget_password_screen.dart';
 import 'package:clothingshop/screens/auth/login_screen.dart';
 import 'package:clothingshop/screens/auth/register_screen.dart';
+import 'package:clothingshop/viewmodels/auth_viewmodel.dart';
+import 'package:clothingshop/viewmodels/global_ui_viewmodel.dart';
 
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/cupertino.dart';
@@ -11,6 +13,8 @@ import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:loader_overlay/loader_overlay.dart';
 import 'package:provider/provider.dart';
+
+import 'firebase_options.dart';
 
 
 
