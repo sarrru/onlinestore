@@ -11,6 +11,7 @@ import 'package:clothingshop/screens/product/edit_product_screen.dart';
 import 'package:clothingshop/screens/product/my_product_screen.dart';
 import 'package:clothingshop/screens/product/single_product_screen.dart';
 import 'package:clothingshop/screens/splash_screen.dart';
+import 'package:clothingshop/services/local_notification_service.dart';
 import 'package:clothingshop/viewmodels/auth_viewmodel.dart';
 import 'package:clothingshop/viewmodels/category_viewmodel.dart';
 import 'package:clothingshop/viewmodels/global_ui_viewmodel.dart';
@@ -32,7 +33,7 @@ void main() async {
   await Firebase.initializeApp(
     options: DefaultFirebaseOptions.currentPlatform,
   );
-  NotificationSecrvice.initialize();
+  NotificationService.initialize();
   runApp(MyApp());
 }
 

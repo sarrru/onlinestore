@@ -7,6 +7,7 @@ import '../../viewmodels/auth_viewmodel.dart';
 import '../../viewmodels/category_viewmodel.dart';
 import '../../viewmodels/global_ui_viewmodel.dart';
 import '../../viewmodels/product_viewmodel.dart';
+import '../account/account_screen.dart';
 import '../cart/cart_screen.dart';
 import '../favorite/favorite_screen.dart';
 import '../home/home_screen.dart';
