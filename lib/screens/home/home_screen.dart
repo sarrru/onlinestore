@@ -6,8 +6,11 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
 
+import '../../models/category_model.dart';
 import '../../models/product_model.dart';
 import '../../viewmodels/auth_viewmodel.dart';
+import '../../viewmodels/category_viewmodel.dart';
+import '../../viewmodels/product_viewmodel.dart';
 
 
 
