@@ -4,8 +4,17 @@
 import 'package:clothingshop/screens/auth/forget_password_screen.dart';
 import 'package:clothingshop/screens/auth/login_screen.dart';
 import 'package:clothingshop/screens/auth/register_screen.dart';
+import 'package:clothingshop/screens/category/single_category_screen.dart';
+import 'package:clothingshop/screens/dashboard/dashboard.dart';
+import 'package:clothingshop/screens/product/add_product_screen.dart';
+import 'package:clothingshop/screens/product/edit_product_screen.dart';
+import 'package:clothingshop/screens/product/my_product_screen.dart';
+import 'package:clothingshop/screens/product/single_product_screen.dart';
+import 'package:clothingshop/screens/splash_screen.dart';
 import 'package:clothingshop/viewmodels/auth_viewmodel.dart';
+import 'package:clothingshop/viewmodels/category_viewmodel.dart';
 import 'package:clothingshop/viewmodels/global_ui_viewmodel.dart';
+import 'package:clothingshop/viewmodels/product_viewmodel.dart';
 
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/cupertino.dart';
@@ -23,7 +32,7 @@ void main() async {
   await Firebase.initializeApp(
     options: DefaultFirebaseOptions.currentPlatform,
   );
-  NotificationService.initialize();
+  NotificationSecrvice.initialize();
   runApp(MyApp());
 }
 

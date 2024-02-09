@@ -80,7 +80,7 @@ class AuthViewModel with ChangeNotifier {
   }
 
 
-  FavoriteRepository _favoriteRepository = FavoriteRepository();
+  FavoriteRepogisitory _favoriteRepository = FavoriteRepository();
   List<FavoriteModel> _favorites = [];
   List<FavoriteModel> get favorites => _favorites;
 
