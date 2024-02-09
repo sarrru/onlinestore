@@ -4,6 +4,7 @@ import 'package:image_picker/image_picker.dart';
 import 'package:provider/provider.dart';
 
 
+import '../../models/product_model.dart';
 import '../../services/file_upload.dart';
 import '../../viewmodels/auth_viewmodel.dart';
 
